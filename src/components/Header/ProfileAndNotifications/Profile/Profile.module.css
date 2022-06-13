@@ -1,0 +1,30 @@
+.profileWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    gap: 10px;
+    margin-left: 20px;
+
+    width: 232px;
+    height: 48px;
+}
+
+.profile__img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile__name {
+    width: 132px;
+    height: 22px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4D4D4F;
+}
