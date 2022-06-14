@@ -3,7 +3,7 @@ import React, { FC } from 'react';
 import calendar from '../../../../../assets/images/startPageComponnets/registryNews/calendar.png';
 import { ReturnComponentType } from '../../../../../types';
 
-import styles from './Registry.module.css';
+import styles from './Registry.module.scss';
 import { RegistryPropsType } from './types';
 
 export const Registry: FC<RegistryPropsType> = ({ mewsItem }): ReturnComponentType => (

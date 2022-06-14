@@ -6,7 +6,7 @@ import { getQuestionList } from '../../../../../selectors';
 import { ReturnComponentType } from '../../../../../types';
 
 import { Question } from './Question';
-import styles from './Questions.module.css';
+import styles from './Questions.module.scss';
 
 export const Questions = (): ReturnComponentType => {
   const questionsList = useSelector(getQuestionList);

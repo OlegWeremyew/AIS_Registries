@@ -1,9 +1,0 @@
-.appWrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    max-width: 1400px;
-    background-color: #FFF;
-    margin: 0 auto;
-    font-family: 'Manrope', sans-serif;
-}

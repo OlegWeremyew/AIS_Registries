@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ReturnComponentType } from '../../../../../../types';
 
-import styles from './SearchLine.module.css';
+import styles from './SearchLine.module.scss';
 
 export const SearchLine = (): ReturnComponentType => (
   <div className={styles.searchLineWrapper}>

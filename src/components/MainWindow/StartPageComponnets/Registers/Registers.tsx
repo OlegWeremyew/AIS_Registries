@@ -4,7 +4,7 @@ import { ReturnComponentType } from '../../../../types';
 
 import { Elements } from './Elements';
 import { Paginator } from './Paginator';
-import styles from './Registers.module.css';
+import styles from './Registers.module.scss';
 import { TitleAndFilter } from './TitleAndFilter';
 
 export const Registers = (): ReturnComponentType => (

@@ -3,7 +3,7 @@ import React from 'react';
 import doubleArrow from '../../../../../../../assets/images/startPageComponnets/registers/elements/doubleArrow.png';
 import { ReturnComponentType } from '../../../../../../../types';
 
-import styles from './RegistrationNumbers.module.css';
+import styles from './RegistrationNumbers.module.scss';
 
 export const RegistrationNumbers = (): ReturnComponentType => (
   <div className={styles.registrationWrapper}>

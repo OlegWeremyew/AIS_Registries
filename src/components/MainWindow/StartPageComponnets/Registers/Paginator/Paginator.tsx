@@ -5,7 +5,7 @@ import leftGrayArrow from '../../../../../assets/images/startPageComponnets/regi
 import rightDarkArrow from '../../../../../assets/images/startPageComponnets/registers/paginator/rightDarkArrow.png';
 import { ReturnComponentType } from '../../../../../types';
 
-import styles from './Paginator.module.css';
+import styles from './Paginator.module.scss';
 import { PaginatorButton } from './PaginatorButton';
 import { UpperArrows } from './UpperArrows';
 import { UpperDoubleArrows } from './UpperDoubleArrows';

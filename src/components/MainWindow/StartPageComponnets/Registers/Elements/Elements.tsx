@@ -3,7 +3,7 @@ import React from 'react';
 import { ReturnComponentType } from '../../../../../types';
 
 import { Category } from './Category';
-import styles from './Elements.module.css';
+import styles from './Elements.module.scss';
 import { Registries } from './Registries';
 
 export const Elements = (): ReturnComponentType => (

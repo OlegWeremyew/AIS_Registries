@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 import { getDocumentsList } from '../../../../../../selectors';
 import { ReturnComponentType } from '../../../../../../types';
 
-import styles from './DocumentBlock.module.css';
+import styles from './DocumentBlock.module.scss';
 import { DocumentItem } from './DocumentItem';
 
 export const DocumentBlock = (): ReturnComponentType => {

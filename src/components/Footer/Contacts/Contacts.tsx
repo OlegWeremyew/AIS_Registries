@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ReturnComponentType } from '../../../types';
 
-import styles from './Contacts.module.css';
+import styles from './Contacts.module.scss';
 
 export const Contacts = (): ReturnComponentType => (
   <div className={styles.contactsWrapper}>

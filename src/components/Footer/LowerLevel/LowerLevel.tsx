@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ReturnComponentType } from '../../../types';
 
-import styles from './LowerLevel.module.css';
+import styles from './LowerLevel.module.scss';
 
 export const LowerLevel = (): ReturnComponentType => (
   <div className={styles.lowerLevelWrapper}>

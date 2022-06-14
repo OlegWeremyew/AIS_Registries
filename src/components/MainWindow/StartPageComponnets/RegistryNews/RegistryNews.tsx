@@ -7,7 +7,7 @@ import { ReturnComponentType } from '../../../../types';
 
 import { Registry } from './Registry';
 import { RegistryButton } from './RegistryButton';
-import styles from './RegistryNews.module.css';
+import styles from './RegistryNews.module.scss';
 
 export const RegistryNews = (): ReturnComponentType => {
   const newsList = useSelector(getNewsList);

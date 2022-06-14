@@ -3,7 +3,7 @@ import React from 'react';
 import footerLogo from '../../../../assets/images/footer/footerLogo.png';
 import { ReturnComponentType } from '../../../../types';
 
-import styles from './Logo.module.css';
+import styles from './Logo.module.scss';
 
 export const Logo = (): ReturnComponentType => (
   <div className={styles.footerLogoWrapper}>

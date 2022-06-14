@@ -3,7 +3,7 @@ import React from 'react';
 import { ReturnComponentType } from '../../../../types';
 
 import { DocumentElements } from './DocumentElements';
-import styles from './Documents.module.css';
+import styles from './Documents.module.scss';
 import { DocumentsInner } from './DocumentsInner';
 
 export const Documents = (): ReturnComponentType => (

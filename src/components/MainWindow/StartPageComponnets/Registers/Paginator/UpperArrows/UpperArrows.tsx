@@ -3,7 +3,7 @@ import React, { FC } from 'react';
 import { ReturnComponentType } from '../../../../../../types';
 
 import { UpperArrowsPropsType } from './types';
-import styles from './UpperArrows.module.css';
+import styles from './UpperArrows.module.scss';
 
 export const UpperArrows: FC<UpperArrowsPropsType> = ({
   content,

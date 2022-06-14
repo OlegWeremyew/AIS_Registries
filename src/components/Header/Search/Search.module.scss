@@ -1,0 +1,22 @@
+.search {
+  background-color: #F9F9FB;
+  width: 270px;
+  height: 48px;
+  margin-left: 30px;
+  gap: 5px;
+  padding: 10px 0 10px 39px;
+  font-family: 'Manrope', sans-serif;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #C6C6C6;
+  line-height: 19px;
+  outline: none;
+
+  &:focus {
+    background: #F6F6F9;
+    border: 1px solid #009CB4;
+  }
+
+}

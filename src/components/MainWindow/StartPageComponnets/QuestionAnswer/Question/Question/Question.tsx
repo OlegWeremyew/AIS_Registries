@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 
 import { ReturnComponentType } from '../../../../../../types';
 
-import styles from './Question.module.css';
+import styles from './Question.module.scss';
 import { QuestionData } from './QuestionData';
 import { QuestionItem } from './QuestionItem';
 import { QuestionPropsType } from './types';

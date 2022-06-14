@@ -3,7 +3,7 @@ import React from 'react';
 import download from '../../../../../../assets/images/startPageComponnets/documents/download.png';
 import { ReturnComponentType } from '../../../../../../types';
 
-import styles from './DocumentsСategories.module.css';
+import styles from './DocumentsСategories.module.scss';
 
 export const DocumentsСategories = (): ReturnComponentType => (
   <div className={styles.categoryWrapper}>

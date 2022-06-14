@@ -3,7 +3,7 @@ import React from 'react';
 import calendar from '../../../../assets/images/header/calendar.png';
 import { ReturnComponentType } from '../../../../types';
 
-import styles from './Calendar.module.css';
+import styles from './Calendar.module.scss';
 
 export const Calendar = (): ReturnComponentType => (
   <div className={styles.calendarWrapper}>

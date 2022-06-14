@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ReturnComponentType } from '../../../../types';
 
-import styles from './Developer.module.css';
+import styles from './Developer.module.scss';
 
 export const Developer = (): ReturnComponentType => (
   <div className={styles.developerWrapper}>

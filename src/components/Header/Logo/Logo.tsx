@@ -3,7 +3,7 @@ import React from 'react';
 import logo from '../../../assets/images/header/logo.png';
 import { ReturnComponentType } from '../../../types';
 
-import styles from './Logo.module.css';
+import styles from './Logo.module.scss';
 
 export const Logo = (): ReturnComponentType => (
   <div className={styles.logo}>

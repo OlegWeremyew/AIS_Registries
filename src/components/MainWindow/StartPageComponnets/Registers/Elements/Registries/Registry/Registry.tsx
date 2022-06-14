@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 
 import { ReturnComponentType } from '../../../../../../../types';
 
-import styles from './Registry.module.css';
+import styles from './Registry.module.scss';
 import { RegistryPropsType } from './types';
 
 export const Registry: FC<RegistryPropsType> = ({ registry }): ReturnComponentType => (

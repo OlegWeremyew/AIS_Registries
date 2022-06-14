@@ -3,7 +3,7 @@ import React from 'react';
 import { ReturnComponentType } from '../../../../../types';
 
 import { SearchLine } from './SearchLine';
-import styles from './TitleBlock.module.css';
+import styles from './TitleBlock.module.scss';
 
 export const TitleBlock = (): ReturnComponentType => (
   <div className={styles.titleBlockWrapper}>

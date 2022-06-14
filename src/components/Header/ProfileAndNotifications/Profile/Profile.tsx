@@ -4,7 +4,7 @@ import userPhoto from '../../../../assets/images/header/userPhoto.png';
 import { ReturnComponentType } from '../../../../types';
 
 import { Menu } from './Menu';
-import styles from './Profile.module.css';
+import styles from './Profile.module.scss';
 
 export const Profile = (): ReturnComponentType => (
   <div className={styles.profileWrapper}>

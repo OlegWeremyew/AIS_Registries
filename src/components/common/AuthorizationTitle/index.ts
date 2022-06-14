@@ -1,0 +1,1 @@
+export { AuthorizationTitle } from './AuthorizationTitle';

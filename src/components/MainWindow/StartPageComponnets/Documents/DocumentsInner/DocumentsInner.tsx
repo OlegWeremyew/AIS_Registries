@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ReturnComponentType } from '../../../../../types';
 
-import styles from './DocumentsInner.module.css';
+import styles from './DocumentsInner.module.scss';
 
 export const DocumentsInner = (): ReturnComponentType => (
   <div className={styles.innerWrapper}>

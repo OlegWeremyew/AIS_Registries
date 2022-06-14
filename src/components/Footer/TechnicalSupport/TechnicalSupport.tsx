@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ReturnComponentType } from '../../../types';
 
-import styles from './TechnicalSupport.module.css';
+import styles from './TechnicalSupport.module.scss';
 
 export const TechnicalSupport = (): ReturnComponentType => (
   <div className={styles.supportWrapper}>

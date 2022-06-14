@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ReturnComponentType } from '../../../types';
 
-import styles from './Information.module.css';
+import styles from './Information.module.scss';
 
 export const Information = (): ReturnComponentType => (
   <div className={styles.informationWrapper}>

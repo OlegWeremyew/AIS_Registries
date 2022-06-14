@@ -1,9 +1,0 @@
-.elementWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-
-    width: 1170px;
-    height: 1364px;
-}

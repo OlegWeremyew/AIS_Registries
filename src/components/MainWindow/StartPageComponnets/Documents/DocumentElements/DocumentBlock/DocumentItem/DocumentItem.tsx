@@ -3,7 +3,7 @@ import React, { FC } from 'react';
 import downloadButton from '../../../../../../../assets/images/startPageComponnets/documents/downloadButton.png';
 import { ReturnComponentType } from '../../../../../../../types';
 
-import styles from './DocumentItem.module.css';
+import styles from './DocumentItem.module.scss';
 import { DocumentItemPropsType } from './types';
 
 export const DocumentItem: FC<DocumentItemPropsType> = ({

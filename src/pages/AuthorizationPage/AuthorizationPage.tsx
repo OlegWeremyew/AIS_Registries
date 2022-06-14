@@ -1,7 +1,16 @@
 import React from 'react';
 
+import { Return } from '../../components';
+import { AuthorizationElements } from '../../components/common';
 import { ReturnComponentType } from '../../types';
 
-const AuthorizationPage = (): ReturnComponentType => <div>AuthorizationPage</div>;
+import styles from './AuthorizationPage.module.scss';
+
+const AuthorizationPage = (): ReturnComponentType => (
+  <div className={styles.authorizationPageWrapper}>
+    <Return />
+    <AuthorizationElements />
+  </div>
+);
 
 export default AuthorizationPage;

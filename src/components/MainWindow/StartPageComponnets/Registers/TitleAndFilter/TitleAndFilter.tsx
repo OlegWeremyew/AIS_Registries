@@ -4,7 +4,7 @@ import filter from '../../../../../assets/images/startPageComponnets/registers/f
 import threeDotsVertical from '../../../../../assets/images/startPageComponnets/registers/filter/threeDotsVertical.png';
 import { ReturnComponentType } from '../../../../../types';
 
-import styles from './TitleAndFilter.module.css';
+import styles from './TitleAndFilter.module.scss';
 
 export const TitleAndFilter = (): ReturnComponentType => (
   <div className={styles.titleAndFilterWrapper}>

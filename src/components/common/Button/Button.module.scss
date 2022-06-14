@@ -1,0 +1,64 @@
+.buttonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 20px;
+
+  width: 430px;
+  height: 98px;
+
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 209px;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+
+    width: 430px;
+    height: 56px;
+    background: #009CB4;
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+
+    &:hover {
+      background: #01B8D5;
+    }
+
+    &:active {
+      background: #01BEDB;
+    }
+  }
+
+  .forgotPassword {
+    width: 178px;
+    height: 22px;
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #009CB4;
+
+    &:hover {
+      color: #01B8D5;
+    }
+
+    &:active {
+      color: #01BEDB;
+    }
+  }
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ReturnComponentType } from '../../../../../../types';
 
-import styles from './Category.module.css';
+import styles from './Category.module.scss';
 import { RegistrationNumbers } from './RegistrationNumbers';
 import { SoftwareName } from './SoftwareName';
 

@@ -3,7 +3,7 @@ import React from 'react';
 import doubleArrow from '../../../../../../../assets/images/startPageComponnets/registers/elements/doubleArrow.png';
 import { ReturnComponentType } from '../../../../../../../types';
 
-import styles from './SoftwareName.module.css';
+import styles from './SoftwareName.module.scss';
 
 export const SoftwareName = (): ReturnComponentType => (
   <div className={styles.softwareWrapper}>

@@ -3,7 +3,7 @@ import React from 'react';
 import { ReturnComponentType } from '../../types';
 
 import { Contacts } from './Contacts';
-import styled from './Footer.module.css';
+import styled from './Footer.module.scss';
 import { Information } from './Information';
 import { LogoAndGeneralInformation } from './LogoAndGeneralInformation';
 import { LowerLevel } from './LowerLevel';

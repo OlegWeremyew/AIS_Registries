@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ReturnComponentType } from '../../types';
 
-import styles from './Header.module.css';
+import styles from './Header.module.scss';
 import { Logo } from './Logo';
 import { ProfileAndNotifications } from './ProfileAndNotifications';
 import { Search } from './Search';

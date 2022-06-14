@@ -1,0 +1,84 @@
+.documentItemWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0;
+  gap: 80px;
+
+  width: 1170px;
+  height: 150px;
+  border-bottom: 1px solid #EDEDF4;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4D4D4F;
+
+  .documentItem__category {
+    text-align: left;
+    width: 170px;
+    height: 22px;
+  }
+
+  .documentItem__name {
+    width: 390px;
+    text-align: left;
+  }
+
+  .documentItem__date {
+    width: 80px;
+    height: 22px;
+  }
+
+  .documentItem__number {
+    width: 55px;
+    height: 22px;
+    text-align: left;
+  }
+
+  .download {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+
+    width: 165px;
+    height: 44px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #009CB4;
+    cursor: pointer;
+
+    .download__img {
+      width: 16px;
+      height: 20px;
+    }
+
+    .download__block {
+      width: 122px;
+      height: 44px;
+      text-align: left;
+
+      &:hover {
+        color: #01B8D5;
+      }
+
+      &:active {
+        color: #01BEDB;
+      }
+
+      .download__block__text, .download__block__button {
+      }
+
+    }
+  }
+}
+
+
+
+

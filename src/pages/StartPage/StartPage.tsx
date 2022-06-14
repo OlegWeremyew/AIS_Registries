@@ -9,7 +9,7 @@ import {
 } from '../../components';
 import { ReturnComponentType } from '../../types';
 
-import styles from './StartPage.module.css';
+import styles from './StartPage.module.scss';
 
 const StartPage = (): ReturnComponentType => (
   <main className={styles.startPageWrapper}>

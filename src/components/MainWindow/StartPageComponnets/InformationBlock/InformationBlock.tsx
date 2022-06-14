@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ReturnComponentType } from '../../../../types';
 
-import styles from './InformationBlock.module.css';
+import styles from './InformationBlock.module.scss';
 import { InformationImg } from './InformationImg';
 import { TitleBlock } from './TitleBlock';
 
