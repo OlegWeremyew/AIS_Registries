@@ -1,0 +1,1 @@
+export { DocumentsСategories } from './DocumentsСategories';

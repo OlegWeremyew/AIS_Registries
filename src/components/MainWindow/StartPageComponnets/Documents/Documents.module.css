@@ -1,0 +1,11 @@
+.documentsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 80px 115px;
+    gap: 40px;
+    
+    width: 1400px;
+    height: 923px;
+}

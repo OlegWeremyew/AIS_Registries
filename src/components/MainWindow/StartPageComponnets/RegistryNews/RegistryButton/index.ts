@@ -1,0 +1,1 @@
+export { RegistryButton } from './RegistryButton';

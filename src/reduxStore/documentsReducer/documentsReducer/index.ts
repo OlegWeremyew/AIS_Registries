@@ -1,0 +1,1 @@
+export { documentsReducer } from './documentsReducer';

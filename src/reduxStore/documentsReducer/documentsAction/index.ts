@@ -1,0 +1,1 @@
+export { documentsAction } from './documentsAction';
