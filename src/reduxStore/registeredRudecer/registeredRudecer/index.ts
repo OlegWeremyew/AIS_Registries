@@ -1,0 +1,1 @@
+export { registeredReducer } from './registeredRudecer';

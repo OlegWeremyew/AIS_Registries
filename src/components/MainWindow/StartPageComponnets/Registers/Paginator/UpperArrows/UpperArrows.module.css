@@ -7,3 +7,7 @@
     cursor: pointer;
     border-radius: 2px;
 }
+
+.upperArrowsWrapper:active {
+    background: #F9F9FB;
+}

@@ -1,0 +1,1 @@
+export { RegisteredAction } from './RegisteredAction';

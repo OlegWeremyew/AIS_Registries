@@ -15,6 +15,11 @@
     cursor: pointer;
 }
 
+.buttonWrapper:active {
+    background: #009CB4;
+    color: #FFF
+}
+
 .active {
     background: #009CB4;
     color: #FFF

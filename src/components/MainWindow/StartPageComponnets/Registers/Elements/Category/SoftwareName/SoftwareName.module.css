@@ -1,0 +1,22 @@
+.softwareWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+
+    width: 267px;
+    height: 44px;
+}
+
+.software__img {
+    cursor: pointer;
+}
+
+.software__text{
+    width: 233px;
+    height: 44px;
+
+    font-style: normal;
+    text-align: left;
+}

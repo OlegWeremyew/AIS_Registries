@@ -1,0 +1,1 @@
+export { getRegisteredList } from './registeredSelector';

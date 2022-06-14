@@ -1,0 +1,1 @@
+export { SoftwareName } from './SoftwareName';

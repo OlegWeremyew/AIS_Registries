@@ -9,7 +9,7 @@ export const UpperDoubleArrows: FC<UpperArrowsDoublePropsType> = ({
   contentFirst,
   contentSecond,
 }): ReturnComponentType => (
-  <div className={styles.upperArrowsWrapper}>
+  <div className={styles.upperDoubleArrowsWrapper}>
     <img src={contentFirst} alt="arrow" />
     <img src={contentSecond} alt="arrow" />
   </div>
