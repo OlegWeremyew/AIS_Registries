@@ -3,9 +3,10 @@ import React from 'react';
 import {
   Documents,
   InformationBlock,
+  QuestionAnswer,
   Registers,
   RegistryNews,
-} from '../../components/MainWindow';
+} from '../../components';
 import { ReturnComponentType } from '../../types';
 
 import styles from './StartPage.module.css';
@@ -16,6 +17,7 @@ const StartPage = (): ReturnComponentType => (
     <Registers />
     <RegistryNews />
     <Documents />
+    <QuestionAnswer />
   </main>
 );
 

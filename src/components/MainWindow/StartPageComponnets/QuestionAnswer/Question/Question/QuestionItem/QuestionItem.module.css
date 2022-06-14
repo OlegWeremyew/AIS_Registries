@@ -1,0 +1,35 @@
+.itemWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    width: 505px;
+    height: 32px;
+}
+
+.item__img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.item__img__active {
+    width: 32px;
+    height: 32px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.item__text {
+    width: 463px;
+    height: 25px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    color: #4D4D4F;
+    cursor: pointer;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { useSelector } from 'react-redux';
 
-import { getDocumentsList } from '../../../../../../selectors/documentSelector/documentSelector';
+import { getDocumentsList } from '../../../../../../selectors';
 import { ReturnComponentType } from '../../../../../../types';
 
 import styles from './DocumentBlock.module.css';

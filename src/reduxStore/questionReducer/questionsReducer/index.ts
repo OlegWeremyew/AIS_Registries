@@ -1,0 +1,1 @@
+export { questionsReducer } from './questionsReducer';

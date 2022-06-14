@@ -1,0 +1,1 @@
+export { newsAction } from './newsAction';

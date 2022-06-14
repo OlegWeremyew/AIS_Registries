@@ -1,6 +1,5 @@
+import { NewsListType } from '../../../../../../reduxStore/newsReducer/types';
+
 export type RegistryPropsType = {
-  title: string;
-  addedTime: string;
-  description: string;
-  img: string;
+  mewsItem: NewsListType;
 };

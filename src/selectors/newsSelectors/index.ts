@@ -1,0 +1,1 @@
+export { getNewsList } from './newsSelectors';
