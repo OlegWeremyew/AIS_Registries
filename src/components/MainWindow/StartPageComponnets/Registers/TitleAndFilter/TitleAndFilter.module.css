@@ -1,0 +1,31 @@
+.titleAndFilterWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+    margin: 80px 0;
+    height: 50px;
+    gap: 919px;
+}
+
+.titleAndFilterWrapper__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #231F20;
+}
+
+.titleAndFilterWrapper__images {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleAndFilterWrapper__images_item {
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.searchLineWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+
+    width: 450px;
+    height: 56px;
+    box-shadow: 0 8px 40px rgba(130, 130, 141, 0.08);
+}
+
+.searchLine__input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 15px;
+    gap: 10px;
+
+    width: 330px;
+    height: 56px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #C6C6C6;
+}
+
+.searchLine__button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+
+    width: 120px;
+    height: 56px;
+    border-radius: 0 5px 5px 0;
+    background: #009CB4;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
