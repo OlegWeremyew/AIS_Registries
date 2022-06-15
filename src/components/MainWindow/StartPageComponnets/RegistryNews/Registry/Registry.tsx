@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import calendar from '../../../../../assets/images/startPageComponnets/registryNews/calendar.png';
+import calendar from '../../../../../assets/images/startPageComponnets/registryNews/calendar.svg';
 import { ReturnComponentType } from '../../../../../types';
 
 import styles from './Registry.module.scss';

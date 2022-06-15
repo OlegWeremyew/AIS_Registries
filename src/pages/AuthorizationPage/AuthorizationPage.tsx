@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { AuthorizationElements, Return } from '../../components';
+import { Return } from '../../common';
+import { AuthorizationElements } from '../../components';
 import { ReturnComponentType } from '../../types';
 
 import styles from './AuthorizationPage.module.scss';

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import filter from '../../../../../assets/images/startPageComponnets/registers/filter/filter.png';
-import threeDotsVertical from '../../../../../assets/images/startPageComponnets/registers/filter/threeDotsVertical.png';
+import filter from '../../../../../assets/images/startPageComponnets/registers/filter/filter.svg';
+import threeDotsVertical from '../../../../../assets/images/startPageComponnets/registers/filter/threeDotsVertical.svg';
 import { ReturnComponentType } from '../../../../../types';
 
 import styles from './TitleAndFilter.module.scss';

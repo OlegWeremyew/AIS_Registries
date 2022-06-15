@@ -1,0 +1,42 @@
+.returnWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;;
+  padding: 10px 5px;
+  border-radius: 5px;
+  gap: 15px;
+  width: 124px;
+  height: 35px;
+  cursor: pointer;
+  color: #676A71;
+
+  position: absolute;
+  left: 115px;
+  top: 40px;
+
+  .return__img {
+    width: 24px;
+    height: 24px;
+  }
+
+
+  .return__text {
+    width: 75px;
+    height: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  &:hover {
+    background-color: #F6F6F9;
+    border: 1px solid #A8AAAE;
+    padding: 9px 4px;
+  }
+
+  &:active {
+    background-color: #e3e4e5;
+  }
+
+}

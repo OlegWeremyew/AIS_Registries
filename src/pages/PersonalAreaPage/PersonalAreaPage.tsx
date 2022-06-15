@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { PersonalContentBlock, PersonalTitle, Return } from '../../components';
+import { Return } from '../../common';
+import { PersonalContentBlock, PersonalTitle } from '../../components';
 import { ReturnComponentType } from '../../types';
 
 import styles from './PersonalAreaPage.module.scss';

@@ -14,13 +14,18 @@
   border: none;
   cursor: pointer;
 
-  &:active {
-    background: #009CB4;
+  &:hover {
+    background: #01B8D4;
     color: #FFF
   }
 
-  .active {
-    background: #009CB4;
+  &:active {
+    background: #01BEDB;
     color: #FFF
   }
+}
+
+.active {
+  background: #009CB4;
+  color: #FFF
 }

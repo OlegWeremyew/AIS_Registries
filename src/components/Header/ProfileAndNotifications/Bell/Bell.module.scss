@@ -9,6 +9,10 @@
   cursor: pointer;
   position: relative;
 
+  &:hover {
+    background: #EDEDF4;
+  }
+
   &:after {
     content: '4';
     position: absolute;
@@ -18,6 +22,7 @@
     top: 0;
     background: #009CB4;
     border-radius: 50%;
+    z-index: 1;
 
     font-style: normal;
     font-weight: 500;

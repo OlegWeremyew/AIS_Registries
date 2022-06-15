@@ -1,6 +1,6 @@
 import React from 'react';
 
-import download from '../../../../../../assets/images/startPageComponnets/documents/download.png';
+import download from '../../../../../../assets/images/startPageComponnets/documents/download.svg';
 import { ReturnComponentType } from '../../../../../../types';
 
 import styles from './DocumentsСategories.module.scss';

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from '../../../assets/images/header/logo.png';
+import logo from '../../../assets/images/header/logo.svg';
 import { ReturnComponentType } from '../../../types';
 
 import styles from './Logo.module.scss';

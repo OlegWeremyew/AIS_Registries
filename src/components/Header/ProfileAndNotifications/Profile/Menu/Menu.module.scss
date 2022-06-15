@@ -8,6 +8,7 @@
   border-radius: 5px;
   border: none;
   cursor: pointer;
+  padding-left: 5px;
 
   &:hover {
     background: #F9F9FB;
@@ -16,5 +17,6 @@
   .menu__image {
     width: 14px;
     height: 8px;
+    margin-right: 5px;
   }
 }

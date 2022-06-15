@@ -1,6 +1,6 @@
 import React from 'react';
 
-import bell from '../../../../assets/images/header/bell.png';
+import bell from '../../../../assets/images/header/bell.svg';
 import { ReturnComponentType } from '../../../../types';
 
 import styles from './Bell.module.scss';

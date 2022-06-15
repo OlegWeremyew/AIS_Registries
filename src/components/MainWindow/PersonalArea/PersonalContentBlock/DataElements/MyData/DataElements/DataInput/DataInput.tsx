@@ -9,6 +9,7 @@ export const DataInput: FC<DataInputPropsType> = ({
   value,
   label,
   id,
+  placeholder,
 }): ReturnComponentType => {
   const [status, setStatus] = useState<boolean>(false);
 
@@ -27,7 +28,7 @@ export const DataInput: FC<DataInputPropsType> = ({
         id={id}
         type="text"
         defaultValue={value}
-        placeholder={label}
+        placeholder={placeholder}
       />
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import footerLogo from '../../../../assets/images/footer/footerLogo.png';
+import footerLogo from '../../../../assets/images/header/logo.svg';
 import { ReturnComponentType } from '../../../../types';
 
 import styles from './Logo.module.scss';

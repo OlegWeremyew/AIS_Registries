@@ -48,6 +48,11 @@
 
     color: #4D4D4F;
 
+    &:hover {
+      border: 1px solid #A8AAAE;
+      padding-left: 17px;
+    }
+
     &:focus {
       background: #F6F6F9;
       border: 1px solid #009CB4;

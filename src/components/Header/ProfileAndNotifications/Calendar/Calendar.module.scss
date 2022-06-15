@@ -8,4 +8,8 @@
   background: #F9F9FB;
   cursor: pointer;
   position: relative;
+
+  &:hover {
+    background: #EDEDF4;
+  }
 }

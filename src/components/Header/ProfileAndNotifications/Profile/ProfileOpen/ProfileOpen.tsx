@@ -2,9 +2,8 @@ import React, { FC } from 'react';
 
 import { useNavigate } from 'react-router-dom';
 
-import arrowDown from '../../../../../assets/images/header/arrowDown.png';
 import user from '../../../../../assets/images/header/user.svg';
-import userPhoto from '../../../../../assets/images/header/userPhoto.png';
+import userPhoto from '../../../../../assets/images/header/userPhoto.svg';
 import { PATH } from '../../../../../constants/router';
 import { ReturnComponentType } from '../../../../../types';
 import { Menu } from '../Menu';
@@ -20,10 +19,12 @@ export const ProfileOpen: FC<ProfileOpenPropsType> = ({
 
   const redirectToUserProfileHandler = (): void => {
     navigate(PATH.PERSONAL_AREA_PAGE);
+    setStatus(false);
   };
 
   const redirectToAuthorizationHandler = (): void => {
     navigate(PATH.AUTHORIZATION_PAGE);
+    setStatus(false);
   };
 
   return (
@@ -35,7 +36,9 @@ export const ProfileOpen: FC<ProfileOpenPropsType> = ({
           src={userPhoto}
           alt="user avatar"
         />
-        <span className={styles.profile__name}>Захар Палазник</span>
+        <span onClick={redirectToUserProfileHandler} className={styles.profile__name}>
+          Захар Палазник
+        </span>
         <Menu setStatus={setStatus} status={status} />
       </div>
       <div className={styles.profile__block}>
@@ -45,7 +48,9 @@ export const ProfileOpen: FC<ProfileOpenPropsType> = ({
           src={user}
           alt="user avatar"
         />
-        <span className={styles.profile__name}>Вход в аккаунт</span>
+        <span onClick={redirectToAuthorizationHandler} className={styles.profile__name}>
+          Вход в аккаунт
+        </span>
         <Menu setStatus={setStatus} status={status} />
       </div>
     </div>

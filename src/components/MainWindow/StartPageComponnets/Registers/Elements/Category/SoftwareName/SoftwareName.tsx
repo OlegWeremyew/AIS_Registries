@@ -1,6 +1,6 @@
 import React from 'react';
 
-import doubleArrow from '../../../../../../../assets/images/startPageComponnets/registers/elements/doubleArrow.png';
+import doubleArrow from '../../../../../../../assets/images/startPageComponnets/registers/elements/doubleArrow.svg';
 import { ReturnComponentType } from '../../../../../../../types';
 
 import styles from './SoftwareName.module.scss';

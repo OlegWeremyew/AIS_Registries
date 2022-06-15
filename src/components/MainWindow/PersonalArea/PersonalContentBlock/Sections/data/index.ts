@@ -1,10 +1,10 @@
-import bell from '../../../../../../assets/images/personalArea/sections/bell.png';
-import download from '../../../../../../assets/images/personalArea/sections/download.png';
-import logout from '../../../../../../assets/images/personalArea/sections/logout.png';
-import metaData from '../../../../../../assets/images/personalArea/sections/metaData.png';
-import profile from '../../../../../../assets/images/personalArea/sections/profile.png';
-import registry from '../../../../../../assets/images/personalArea/sections/registry.png';
-import safety from '../../../../../../assets/images/personalArea/sections/safety.png';
+import bell from '../../../../../../assets/images/personalArea/sections/bell.svg';
+import download from '../../../../../../assets/images/personalArea/sections/download.svg';
+import logout from '../../../../../../assets/images/personalArea/sections/logout.svg';
+import metaData from '../../../../../../assets/images/personalArea/sections/metaData.svg';
+import profile from '../../../../../../assets/images/personalArea/sections/profile.svg';
+import registry from '../../../../../../assets/images/personalArea/sections/registry.svg';
+import safety from '../../../../../../assets/images/personalArea/sections/safety.svg';
 import { DataArrayType } from '../types';
 
 export const data: DataArrayType = [
