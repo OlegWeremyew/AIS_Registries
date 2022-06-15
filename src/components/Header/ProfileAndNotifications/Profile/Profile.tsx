@@ -1,15 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import userPhoto from '../../../../assets/images/header/userPhoto.png';
 import { ReturnComponentType } from '../../../../types';
 
-import { Menu } from './Menu';
 import styles from './Profile.module.scss';
+import { ProfileOpen } from './ProfileOpen';
+import { ProfileToggle } from './ProfileToggle';
 
-export const Profile = (): ReturnComponentType => (
-  <div className={styles.profileWrapper}>
-    <img className={styles.profile__img} src={userPhoto} alt="user avatar" />
-    <span className={styles.profile__name}>Захар Палазник</span>
-    <Menu />
-  </div>
-);
+export const Profile = (): ReturnComponentType => {
+  const [status, setStatus] = useState<boolean>(false);
+
+  const changeStatus = (status: boolean): void => {
+    setStatus(status);
+  };
+
+  return (
+    <div className={styles.container}>
+      {!status ? (
+        <ProfileToggle status={status} setStatus={changeStatus} />
+      ) : (
+        <ProfileOpen status={status} setStatus={changeStatus} />
+      )}
+    </div>
+  );
+};

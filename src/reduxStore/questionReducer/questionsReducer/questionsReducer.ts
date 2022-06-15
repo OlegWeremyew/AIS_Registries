@@ -1,3 +1,4 @@
+import { CHANGE_ANSWER_STATUS } from '../constants';
 import { QuestionsActionTypes, QuestionsInitialType, QuestionsTypeList } from '../types';
 
 export const initialQuestionState = {
@@ -74,6 +75,16 @@ export const questionsReducer = (
   action: QuestionsActionTypes,
 ): QuestionsInitialType => {
   switch (action.type) {
+    case CHANGE_ANSWER_STATUS: {
+      return {
+        ...state,
+        questions: state.questions.map(question =>
+          question.id === action.payload.id
+            ? { ...question, status: action.payload.status }
+            : question,
+        ),
+      };
+    }
     default:
       return state;
   }

@@ -7,9 +7,11 @@ import styles from './App.module.scss';
 
 const App = (): ReturnComponentType => (
   <div className={styles.appWrapper}>
-    <Header />
-    <Routers />
-    <Footer />
+    <React.Suspense>
+      <Header />
+      <Routers />
+      <Footer />
+    </React.Suspense>
   </div>
 );
 
