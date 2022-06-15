@@ -1,0 +1,30 @@
+.itemWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  gap: 20px;
+
+  width: 430px;
+  height: 59px;
+
+  border: 1px solid #EDEDF4;
+  border-radius: 5px;
+  color: #4D4D4F;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid #009CB4;
+    color: #009CB4;
+  }
+
+  .text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+  }
+
+}
