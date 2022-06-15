@@ -22,9 +22,16 @@
     justify-content: space-between;
 
     .titleAndFilterWrapper__images_item {
-      height: 32px;
-      width: 32px;
+      height: 42px;
+      width: 42px;
+      border-radius: 5px;
+      padding: 5px;
       cursor: pointer;
+
+      &:hover {
+        background-color: #EDEDF4;
+      }
+      
     }
   }
 }

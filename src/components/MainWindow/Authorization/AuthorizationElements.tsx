@@ -18,12 +18,14 @@ export const AuthorizationElements = (): ReturnComponentType => (
       placeholder="Введите имя"
       id="UserNameAuthorizationElements"
       text="Имя"
+      errorText="Слишком короткое имя"
     />
     <Input
       type="password"
       placeholder="Введите пароль"
       id="UserPasswordAuthorizationElements"
       text="Пароль"
+      errorText="Неправильный пароль"
     />
     <Checkbox />
     <Button text="Вход" />

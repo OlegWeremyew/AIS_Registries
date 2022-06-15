@@ -3,7 +3,7 @@ import { ActionRegisteredTypes, registeredInitialType, RegisterItemType } from '
 export const initialRegistered = {
   registers: [
     {
-      registrationNumbers: '#1',
+      registrationNumbers: '1',
       softwareName: 'Система управления базами данных «Ред База Данных»',
       classCode: '02.09',
       softwareClass: 'Системы управления базами данных',
@@ -11,7 +11,7 @@ export const initialRegistered = {
       websiteAddress: '#',
     },
     {
-      registrationNumbers: '#2',
+      registrationNumbers: '2',
       softwareName: '1С:Школа. Информатика, 11 класс',
       classCode: '04.11',
       softwareClass: 'Системы управления процессами организации',
@@ -19,7 +19,7 @@ export const initialRegistered = {
       websiteAddress: '#',
     },
     {
-      registrationNumbers: '#3',
+      registrationNumbers: '3',
       softwareName: '1С:Школа. Русский язык, 5–6 класс. Лексикология',
       classCode: '04.11',
       softwareClass: 'Информационные системы для решения специфических отраслевых задач',
@@ -27,7 +27,7 @@ export const initialRegistered = {
       websiteAddress: '#',
     },
     {
-      registrationNumbers: '#4',
+      registrationNumbers: '4',
       softwareName: '1С:Комплексная автоматизация 8',
       classCode: '04.11',
       softwareClass: 'Системы управления процессами организации',
@@ -35,7 +35,7 @@ export const initialRegistered = {
       websiteAddress: '#',
     },
     {
-      registrationNumbers: '#5',
+      registrationNumbers: '5',
       softwareName: 'Электронный периодический справочник "Система ГАРАНТ"',
       classCode: '04.15',
       softwareClass: 'Прикладное программное обеспечение общего назначения',
@@ -43,7 +43,7 @@ export const initialRegistered = {
       websiteAddress: '#',
     },
     {
-      registrationNumbers: '#6',
+      registrationNumbers: '6',
       softwareName:
         'Система электронного документооборота и автоматизации бизнес-процессов «Е1 Евфрат»',
       classCode: '04.13',
@@ -53,7 +53,7 @@ export const initialRegistered = {
       websiteAddress: '#',
     },
     {
-      registrationNumbers: '#7',
+      registrationNumbers: '7',
       softwareName: 'ABBYY Lingvo',
       classCode: '04.07',
       softwareClass: 'Лингвистическое программное обеспечение',
@@ -61,7 +61,7 @@ export const initialRegistered = {
       websiteAddress: '#',
     },
     {
-      registrationNumbers: '#8',
+      registrationNumbers: '8',
       softwareName: '1С-Битрикс24 (Компания)',
       classCode: '04.03',
       softwareClass: 'Офисные приложения',
@@ -69,7 +69,7 @@ export const initialRegistered = {
       websiteAddress: '#',
     },
     {
-      registrationNumbers: '#9',
+      registrationNumbers: '9',
       softwareName: '1С-Битрикс24 (Проект+)',
       classCode: '04.03',
       softwareClass:
@@ -78,7 +78,7 @@ export const initialRegistered = {
       websiteAddress: '#',
     },
     {
-      registrationNumbers: '#10',
+      registrationNumbers: '10',
       softwareName: '1С-Битрикс24 (Команда)',
       classCode: '04.03',
       softwareClass:

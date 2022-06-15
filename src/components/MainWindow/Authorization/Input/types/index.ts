@@ -3,4 +3,5 @@ export type InputType = {
   placeholder: string;
   id: string;
   text: string;
+  errorText: string;
 };

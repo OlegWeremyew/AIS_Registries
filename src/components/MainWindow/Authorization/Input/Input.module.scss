@@ -4,6 +4,7 @@
   align-items: flex-start;
   padding: 0;
   gap: 5px;
+  margin-bottom: 16px;
 
   width: 430px;
   height: 80px;
@@ -12,7 +13,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 19px;
-  background-color: #fff;
+  position: relative;
 
   .input__label {
     height: 19px;
@@ -24,7 +25,7 @@
     }
   }
 
-  .input__input {
+  .input__main {
     font-family: 'Manrope', sans-serif;
     outline: none;
     display: flex;
@@ -37,10 +38,14 @@
     width: 430px;
     height: 56px;
 
+
     background: #F6F6F9 !important;
     border-radius: 5px;
     border: none;
 
+  }
+
+  .input__input {
     &:hover {
       border: 1px solid #A8AAAE;
       padding-left: 17px;
@@ -53,9 +58,46 @@
     }
   }
 
-  .active {
+  .error__input {
+    color: #E0371F;
+    border: 1px solid #E0371F !important;
+  }
+
+  .check__input {
+    color: #C6C6C6;
+    border: 1px solid #00B347 !important;
+  }
+
+  .input__check {
+    position: absolute;
+    top: 40px;
+    left: 440px;
+  }
+
+  .input__label {
     height: 19px;
     cursor: pointer;
+  }
+
+  .active__label {
     color: #009CB4;
   }
+
+  .error__label {
+    color: #E0371F;
+  }
+
+  .check__label {
+    color: #00B347;
+  }
+
+  .error__text {
+    height: 17px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #E0371F;
+  }
+
 }

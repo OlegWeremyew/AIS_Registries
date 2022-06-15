@@ -25,13 +25,13 @@ export const DataElements = (): ReturnComponentType => (
       id="country"
       label="Страна"
       name="Страна"
-      list={['Беларусь', 'Россия', 'Украина', 'Литва']}
+      list={['Беларусь', 'Россия', 'Украина', 'Литва', 'Латвия']}
     />
     <DataSelect
       id="city"
       label="Город"
       name="Город"
-      list={['Минск', 'Москва', 'Киеев', 'Вильнюс']}
+      list={['Минск', 'Москва', 'Киев', 'Вильнюс', 'Рига']}
     />
     <DataInput
       value="+375 22 111 33 44"
