@@ -7,6 +7,7 @@ import { DataLine } from './DataLine';
 import { Greetings } from './Greetings';
 import { MyData } from './MyData';
 import { Passwords } from './Passwords';
+import { SaveDataButton } from './SaveDataButton';
 
 export const DataElements = (): ReturnComponentType => (
   <div className={styles.dataElementWrapper}>
@@ -15,5 +16,7 @@ export const DataElements = (): ReturnComponentType => (
     <MyData />
     <DataLine />
     <Passwords />
+    <DataLine />
+    <SaveDataButton />
   </div>
 );

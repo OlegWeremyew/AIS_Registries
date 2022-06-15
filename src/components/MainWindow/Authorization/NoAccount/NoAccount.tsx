@@ -9,7 +9,7 @@ import styles from './NoAccount.module.scss';
 export const NoAccount = (): ReturnComponentType => (
   <div className={styles.noAccountWrapper}>
     <p className={styles.noAccount__text}>У вас нет аккаунта?</p>
-    <NavLink to="" className={styles.noAccount__link}>
+    <NavLink to="#" className={styles.noAccount__link}>
       Нажмите сюда чтобы создать
     </NavLink>
   </div>

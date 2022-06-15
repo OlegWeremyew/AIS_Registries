@@ -1,0 +1,27 @@
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 270px;
+  height: 56px;
+  background: #009CB4;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+
+  &:hover {
+    background: #01B8D5;
+  }
+
+  &:active {
+    background: #01BEDB;
+  }
+}
