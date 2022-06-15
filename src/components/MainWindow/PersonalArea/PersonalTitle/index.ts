@@ -1,0 +1,1 @@
+export { PersonalTitle } from './PersonalTitle';

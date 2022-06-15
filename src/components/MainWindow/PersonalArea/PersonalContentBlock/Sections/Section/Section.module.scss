@@ -1,0 +1,64 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  cursor: pointer;
+
+  .active {
+    width: 270px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #009CB4;
+    border-radius: 5px;
+    padding: 20px;
+    gap: 10px;
+  }
+
+
+  .logout {
+    width: 270px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #EDEDF4;
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+    gap: 10px;
+    color: #E0371F;
+    transition: all 0.3s linear;
+
+    &:hover {
+      border: 1px solid #009CB4;
+      transition: all 0.3s linear;
+    }
+  }
+
+  .none {
+    width: 270px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #EDEDF4;
+    padding: 20px;
+    gap: 10px;
+    transition: all 0.3s linear;
+    color: #676A71;
+
+    &:hover {
+      border: 1px solid #009CB4;
+      color: #009CB4;
+      transition: all 0.3s linear;
+    }
+
+  }
+}

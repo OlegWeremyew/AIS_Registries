@@ -1,0 +1,11 @@
+.dataRowWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 30px;
+
+  width: 770px;
+  height: 80px;
+}

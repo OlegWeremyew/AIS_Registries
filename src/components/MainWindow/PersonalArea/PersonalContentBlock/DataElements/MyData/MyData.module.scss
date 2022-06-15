@@ -1,0 +1,21 @@
+.myDataWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 20px;
+
+  width: 770px;
+  height: 325px;
+
+  .myData__title{
+    text-align: left;
+    width: 175px;
+    height: 25px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

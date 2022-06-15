@@ -7,4 +7,23 @@
   border-radius: 50%;
   background: #F9F9FB;
   cursor: pointer;
+  position: relative;
+
+  &:after {
+    content: '4';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 30px;
+    top: 0;
+    background: #009CB4;
+    border-radius: 50%;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+  }
 }

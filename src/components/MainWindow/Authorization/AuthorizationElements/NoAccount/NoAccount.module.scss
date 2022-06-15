@@ -1,0 +1,24 @@
+.noAccountWrapper {
+  width: 100%;
+  height: 48px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #4D4D4F;
+
+  .noAccount__text {
+
+  }
+
+  .noAccount__link {
+    text-decoration-line: underline;
+    color: #009CB4;
+
+    &:hover {
+      color: #009CB4;
+    }
+  }
+}
