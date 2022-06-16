@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkAIS_Registries=self.webpackChunkAIS_Registries||[]).push([[155],{155:function(e,s,i){i.r(s),i.d(s,{default:function(){return u}});i(791);var r=i(269),t=i(415),n="AuthorizationPage_authorizationPageWrapper__fhlpd",a=i(184),u=function(){return(0,a.jsxs)("div",{className:n,children:[(0,a.jsx)(r.z,{}),(0,a.jsx)(t.bS,{})]})}}}]);
+//# sourceMappingURL=155.a375e1f9.chunk.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkAIS_Registries=self.webpackChunkAIS_Registries||[]).push([[309],{309:function(e,n,r){r.r(n),r.d(n,{default:function(){return s}});r(791);var t="NotFoundPage_notFoundWrapper__xzzqQ",u=r(184),s=function(){return(0,u.jsx)("div",{className:t,children:"Error 404. Page not found"})}}}]);
+//# sourceMappingURL=309.46eecafb.chunk.js.map

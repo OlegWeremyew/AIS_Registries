@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkAIS_Registries=self.webpackChunkAIS_Registries||[]).push([[765],{765:function(e,s,r){r.r(s),r.d(s,{default:function(){return u}});r(791);var n=r(269),a=r(415),i="PersonalAreaPage_personalAreaWrapper__o1+w1",t=r(184),u=function(){return(0,t.jsxs)("div",{className:i,children:[(0,t.jsx)(n.z,{}),(0,t.jsx)(a.AR,{}),(0,t.jsx)(a.RI,{})]})}}}]);
+//# sourceMappingURL=765.e084c0c6.chunk.js.map
