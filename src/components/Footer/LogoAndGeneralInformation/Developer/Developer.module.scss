@@ -1,3 +1,5 @@
+@import "../../../../assets/sass/variables";
+
 .developerWrapper {
   width: 361px;
   height: 75px;
@@ -16,7 +18,7 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
-    color: #4D4D4F;
+    color: $primaryText;
 
   }
 
@@ -28,7 +30,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
-    color: #676A71;
+    color: $footerText;
   }
 
   .developer__address {
@@ -39,7 +41,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
-    color: #A8AAAE;
+    color: $footerTextSec;
   }
 
 }

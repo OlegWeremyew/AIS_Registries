@@ -1,3 +1,5 @@
+@import "../../../../assets/sass/variables";
+
 .inputWrapper {
   display: flex;
   flex-direction: column;
@@ -18,10 +20,10 @@
   .input__label {
     height: 19px;
     cursor: pointer;
-    color: #676A71;
+    color: $footerText;
 
     &:hover {
-      color: #009CB4;
+      color: $btnBgc;
     }
   }
 
@@ -33,7 +35,7 @@
     align-items: center;
     padding: 17px 18px;
     gap: 10px;
-    color: #C6C6C6;
+    color: $inputPlaceholder;
 
     width: 430px;
     height: 56px;
@@ -47,25 +49,25 @@
 
   .input__input {
     &:hover {
-      border: 1px solid #A8AAAE;
+      border: 1px solid $inputBorderHover;
       padding-left: 17px;
     }
 
     &:focus {
       background: #F6F6F9;
-      border: 1px solid #009CB4;
+      border: 1px solid $btnBgc;
       color: #4D4D4F;
     }
   }
 
   .error__input {
-    color: #E0371F;
-    border: 1px solid #E0371F !important;
+    color: $error;
+    border: 1px solid $error !important;
   }
 
   .check__input {
-    color: #C6C6C6;
-    border: 1px solid #00B347 !important;
+    color: $inputPlaceholder;
+    border: 1px solid $check !important;
   }
 
   .input__check {
@@ -80,15 +82,15 @@
   }
 
   .active__label {
-    color: #009CB4;
+    color: $btnBgc;
   }
 
   .error__label {
-    color: #E0371F;
+    color: $error;
   }
 
   .check__label {
-    color: #00B347;
+    color: $check;
   }
 
   .error__text {
@@ -97,7 +99,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    color: #E0371F;
+    color: $error;
   }
 
 }

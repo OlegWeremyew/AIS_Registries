@@ -1,3 +1,5 @@
+@import '../../../../../../../../assets/sass/variables';
+
 .dataInputWrapper {
   display: flex;
   flex-direction: column;
@@ -10,12 +12,12 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 19px;
-  color: #A8AAAE;
+  color: $footerTextSec;
 
   .active {
     height: 19px;
     cursor: pointer;
-    color: #009CB4;
+    color: $btnBgc;
   }
 
   .dataInput__label {
@@ -23,7 +25,7 @@
     cursor: pointer;
 
     &:hover {
-      color: #009CB4;
+      color: $btnBgc;
     }
   }
 
@@ -38,7 +40,7 @@
     gap: 10px;
     width: 370px;
     height: 56px;
-    background: #F6F6F9;
+    background: $inputFocus;
     border-radius: 5px;
 
     font-style: normal;
@@ -46,16 +48,16 @@
     font-size: 14px;
     line-height: 19px;
 
-    color: #4D4D4F;
+    color: $primaryText;
 
     &:hover {
-      border: 1px solid #A8AAAE;
+      border: 1px solid $inputBorderHover;
       padding-left: 17px;
     }
 
     &:focus {
-      background: #F6F6F9;
-      border: 1px solid #009CB4;
+      background: $inputFocus;
+      border: 1px solid $btnBgc;
     }
   }
 }

@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { FC } from 'react';
 
 import { ReturnComponentType } from '../../../../../types';
 
 import styles from './RegistryButton.module.scss';
+import { RegistryButtonPropsType } from './types';
 
-export const RegistryButton = (): ReturnComponentType => (
-  <button type="button" className={styles.registryButton}>
-    Показать все
+export const RegistryButton: FC<RegistryButtonPropsType> = ({
+  text,
+  changeVisibilityStatus,
+}): ReturnComponentType => (
+  <button
+    onClick={changeVisibilityStatus}
+    type="button"
+    className={styles.registryButton}
+  >
+    {text}
   </button>
 );

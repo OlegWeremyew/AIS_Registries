@@ -1,3 +1,5 @@
+@import "../../../../../../../assets/sass/variables";
+
 .dataWrapper {
   width: 611px;
   height: 324px;
@@ -5,7 +7,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  color: #676A71;
+  color: $footerText;
   text-align: left;
   margin-left: 40px;
 

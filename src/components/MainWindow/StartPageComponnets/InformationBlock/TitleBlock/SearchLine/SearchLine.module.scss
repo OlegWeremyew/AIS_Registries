@@ -1,3 +1,5 @@
+@import "../../../../../../assets/sass/variables";
+
 .searchLineWrapper {
   display: flex;
   flex-direction: row;
@@ -11,7 +13,7 @@
     position: relative;
 
     .search {
-      background-color: #F9F9FB;
+      background-color: $inputBgc;
       width: 330px;
       height: 56px;
       padding: 10px 0 10px 49px;
@@ -20,19 +22,19 @@
       border-radius: 5px 0 0 5px;
       font-size: 14px;
       font-weight: 500;
-      color: #C6C6C6;
+      color: $inputPlaceholder;
       line-height: 19px;
       outline: none;
 
       &:hover {
-        border: 1px solid #A8AAAE;
+        border: 1px solid $footerTextSec;
         padding-left: 48px;
       }
 
       &:focus {
-        background: #F6F6F9;
-        border: 1px solid #009CB4;
-        color: #4D4D4F;
+        background: $inputFocus;
+        border: 1px solid $btnBgc;
+        color: $primaryText;
       }
     }
 
@@ -41,7 +43,7 @@
       position: absolute;
       top: 18px;
       left: 20px;
-      color: #999;
+      color: $labelCol;
       font-size: 16px;
     }
 
@@ -61,21 +63,21 @@
     width: 120px;
     height: 56px;
     border-radius: 0 5px 5px 0;
-    background: #009CB4;
+    background: $btnBgc;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
+    color: $bgPrimary;
     cursor: pointer;
 
     &:hover {
-      background: #01B8D5;
+      background: $btnBgHover;
     }
 
     &:active {
-      color:#4D4D4F;
+      background: $btnBgActive;
     }
   }
 }

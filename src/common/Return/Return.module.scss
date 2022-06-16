@@ -1,3 +1,5 @@
+@import "../../assets/sass/variables";
+
 .returnWrapper {
   display: flex;
   flex-direction: row;
@@ -8,7 +10,7 @@
   width: 124px;
   height: 35px;
   cursor: pointer;
-  color: #676A71;
+  color: $footerText;
 
   position: absolute;
   left: 115px;
@@ -30,8 +32,8 @@
   }
 
   &:hover {
-    background-color: #F6F6F9;
-    border: 1px solid #A8AAAE;
+    background-color: $inputFocus;
+    border: 1px solid $inputBorderHover;
     padding: 9px 4px;
   }
 

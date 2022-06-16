@@ -31,12 +31,17 @@ export const Input: FC<InputType> = ({
   };
 
   const changeCheckVisibility = (e: string): void => {
+    if (e.trim().length <= 2) {
+      setCheck(false);
+      setError(errorText);
+    }
+    if (e.trim().length > 2) {
+      setStatus(true);
+      setError('');
+    }
     if (e.trim().length > 7) {
       setCheck(true);
       setError('');
-    } else {
-      setCheck(false);
-      setError(errorText);
     }
   };
 

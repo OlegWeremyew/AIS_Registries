@@ -1,9 +1,10 @@
+@import "../../../../../assets/sass/variables";
+
 .elementWrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-
+  background-color: $bgPrimary;
   width: 1170px;
-  height: 1364px;
 }

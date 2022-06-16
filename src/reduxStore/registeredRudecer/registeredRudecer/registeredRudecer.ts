@@ -1,3 +1,8 @@
+import {
+  CHANGE_SORT_BY_REGISTRATION_NAMES_SOFTWARE,
+  CHANGE_SORT_BY_REGISTRATION_NUMBERS,
+  SET_REGISTRATION_SEARCH,
+} from '../constants';
 import { ActionRegisteredTypes, registeredInitialType, RegisterItemType } from '../types';
 
 export const initialRegistered = {
@@ -94,6 +99,41 @@ export const registeredReducer = (
   action: ActionRegisteredTypes,
 ): registeredInitialType => {
   switch (action.type) {
+    case CHANGE_SORT_BY_REGISTRATION_NUMBERS: {
+      return {
+        ...state,
+        registers: [...state.registers.reverse()],
+      };
+    }
+    case CHANGE_SORT_BY_REGISTRATION_NAMES_SOFTWARE: {
+      return {
+        ...state,
+        registers:
+          action.payload.sortStatus === 'up sort'
+            ? [
+                ...state.registers.sort((a, b) =>
+                  b.softwareName > a.softwareName ? 1 : -1,
+                ),
+              ]
+            : [
+                ...state.registers.sort((a, b) =>
+                  a.softwareName > b.softwareName ? 1 : -1,
+                ),
+              ],
+      };
+    }
+    case SET_REGISTRATION_SEARCH: {
+      return {
+        ...state,
+        registers: !action.payload.search
+          ? [...state.registers]
+          : [
+              ...state.registers.filter(item =>
+                item.softwareName.toLowerCase().includes(action.payload.search),
+              ),
+            ],
+      };
+    }
     default:
       return state;
   }

@@ -1,3 +1,5 @@
+@import "../../../../assets/sass/variables";
+
 .informationWrapper {
   height: 662px;
   width: 100%;
@@ -6,5 +8,5 @@
   align-items: center;
   padding: 80px 115px;
   gap: 215px;
-  background-color: #FBFBFB;
+  background-color: $bgSecondary;
 }

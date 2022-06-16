@@ -1,6 +1,8 @@
+@import "../../assets/sass/variables";
+
 .startPageWrapper {
   width: 100%;
-  background-color: #FFF;
+  background-color: $bgPrimary;
   display: flex;
   flex-direction: column;
   align-items: center;

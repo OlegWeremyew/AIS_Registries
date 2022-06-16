@@ -13,9 +13,15 @@ export const Registries = (): ReturnComponentType => {
 
   return (
     <div className={styles.registriesWrapper}>
-      {registeredList.map(registry => (
-        <Registry key={registry.registrationNumbers} registry={registry} />
-      ))}
+      {registeredList.length ? (
+        <>
+          {registeredList.map(registry => (
+            <Registry key={registry.registrationNumbers} registry={registry} />
+          ))}
+        </>
+      ) : (
+        <h3 className={styles.registries__response}>Совпадений не найдено</h3>
+      )}
     </div>
   );
 };

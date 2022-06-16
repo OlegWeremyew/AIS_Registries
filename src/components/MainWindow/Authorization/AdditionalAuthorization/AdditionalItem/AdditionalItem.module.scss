@@ -1,3 +1,5 @@
+@import "../../../../../assets/sass/variables";
+
 .itemWrapper {
   display: flex;
   flex-direction: row;
@@ -9,14 +11,14 @@
   width: 430px;
   height: 59px;
 
-  border: 1px solid #EDEDF4;
+  border: 1px solid $primaryBorder;
   border-radius: 5px;
-  color: #4D4D4F;
+  color: $primaryText;
   cursor: pointer;
 
   &:hover {
-    border: 1px solid #009CB4;
-    color: #009CB4;
+    border: 1px solid $btnBgc;
+    color: $btnBgc;
   }
 
   .text {

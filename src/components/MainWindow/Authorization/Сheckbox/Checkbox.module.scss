@@ -1,3 +1,5 @@
+@import "../../../../assets/sass/variables";
+
 .checkboxWrapper {
   display: flex;
   flex-direction: row;
@@ -30,7 +32,7 @@
     margin-right: 15px;
     width: 16px;
     height: 16px;
-    border: 2px solid #676A71;
+    border: 2px solid $footerText;
     border-radius: 2px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -46,13 +48,13 @@
   }
 
   .checkbox__input:disabled + label::before {
-    border-color: #C6C6C6;
+    border-color: $inputPlaceholder;
     transition: all 0.2s linear;
   }
 
   .checkbox__input:disabled:checked + label::before {
-    background-color: #C6C6C6;
-    border-color: #C6C6C6;
+    background-color: $inputPlaceholder;
+    border-color: $inputPlaceholder;
     transition: all 0.2s linear;
   }
 
@@ -62,11 +64,11 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-    color: #A8AAAE;
+    color: $inputBorderHover;
     cursor: pointer;
 
     &:hover {
-      color: #009CB4;
+      color: $btnBgc;
     }
   }
 }

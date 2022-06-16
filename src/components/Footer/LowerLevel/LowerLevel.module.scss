@@ -1,3 +1,5 @@
+@import '../../../assets/sass/variables';
+
 .lowerLevelWrapper {
   position: relative;
   display: flex;
@@ -13,7 +15,7 @@
     top: 40px;
     height: 1px;
     width: 100%;
-    background-color: #EDEDF4;;
+    background-color: $primaryBorder;
     border-radius: 3px;
   }
 
@@ -26,7 +28,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
-    color: #C6C6C6;
+    color: $inputPlaceholder;
   }
 
 }

@@ -1,3 +1,5 @@
+@import "../../../../../../assets/sass/variables";
+
 .buttonWrapper {
   width: 40px;
   height: 40px;
@@ -8,24 +10,24 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
-  color: #4D4D4F;
+  color: $primaryText;
   background-color: transparent;
   border-radius: 2px;
   border: none;
   cursor: pointer;
 
   &:hover {
-    background: #01B8D4;
-    color: #FFF
+    background: $btnBgHover;
+    color: $bgPrimary
   }
 
   &:active {
-    background: #01BEDB;
-    color: #FFF
+    background: $btnBgActive;
+    color: $bgPrimary
   }
 }
 
 .active {
-  background: #009CB4;
-  color: #FFF
+  background: $btnBgc;
+  color: $bgPrimary
 }

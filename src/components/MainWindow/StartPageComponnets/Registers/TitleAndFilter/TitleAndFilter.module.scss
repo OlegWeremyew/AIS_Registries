@@ -1,3 +1,5 @@
+@import "../../../../../assets/sass/variables";
+
 .titleAndFilterWrapper {
   display: flex;
   flex-direction: row;
@@ -11,9 +13,9 @@
   .titleAndFilterWrapper__title {
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: $titleSize;
     line-height: 49px;
-    color: #231F20;
+    color: $titlePrimary;
   }
 
   .titleAndFilterWrapper__images {
@@ -29,9 +31,9 @@
       cursor: pointer;
 
       &:hover {
-        background-color: #EDEDF4;
+        background-color: $primaryBorder;
       }
-      
+
     }
   }
 }

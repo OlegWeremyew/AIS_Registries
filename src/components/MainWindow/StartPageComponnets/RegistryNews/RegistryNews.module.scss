@@ -1,3 +1,5 @@
+@import "../../../../assets/sass/variables";
+
 .registryNewsWrapper {
   display: flex;
   width: 1400px;
@@ -7,17 +9,17 @@
   gap: 40px;
   padding: 80px 115px;
   text-align: left;
-  height: 1100px;
-  background-color: #FBFBFB;
+  min-height: 1100px;
+  background-color: $bgSecondary;
 
   .registryNews__title {
     width: 100%;
     text-align: left;
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: $titleSize;
     line-height: 49px;
-    color: #231F20;
+    color: $titlePrimary;
 
   }
 

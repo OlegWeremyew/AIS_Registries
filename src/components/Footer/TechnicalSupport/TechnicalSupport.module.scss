@@ -1,3 +1,5 @@
+@import '../../../assets/sass/variables';
+
 .supportWrapper {
   display: flex;
   flex-direction: column;
@@ -12,7 +14,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
-    color: #231F20;
+    color: $titlePrimary;
   }
 
   .support__data {
@@ -43,7 +45,7 @@
         height: 1px;
         width: 270px;
         border-radius: 3px;
-        background-color: #EDEDF4;
+        background-color: $primaryBorder;
       }
 
     }
@@ -60,9 +62,8 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 19px;
-        color: #4D4D4F;
+        color: $primaryText;
       }
-
     }
 
   }

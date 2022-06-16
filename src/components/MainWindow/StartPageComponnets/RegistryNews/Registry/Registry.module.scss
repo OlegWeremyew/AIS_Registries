@@ -1,3 +1,5 @@
+@import "../../../../../assets/sass/variables";
+
 .registryWrapper {
   display: flex;
   flex-direction: column;
@@ -22,7 +24,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
-    color: #231F20;
+    color: $titlePrimary;
   }
 
   .registry__timeBlock {
@@ -31,7 +33,6 @@
     align-items: center;
     padding: 0;
     gap: 10px;
-
     width: 109px;
     height: 24px;
 
@@ -46,7 +47,7 @@
       font-weight: 500;
       font-size: 14px;
       line-height: 19px;
-      color: #A8AAAE;
+      color: $footerTextSec;
     }
 
   }
@@ -58,7 +59,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #676A71;
+    color: $footerText;
   }
 }
 

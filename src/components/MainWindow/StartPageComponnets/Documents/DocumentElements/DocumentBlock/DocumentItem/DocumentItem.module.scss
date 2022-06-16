@@ -1,3 +1,5 @@
+@import "../../../../../../../assets/sass/variables";
+
 .documentItemWrapper {
   display: flex;
   flex-direction: row;
@@ -7,13 +9,13 @@
 
   width: 1170px;
   height: 150px;
-  border-bottom: 1px solid #EDEDF4;
+  border-bottom: 1px solid $primaryBorder;
 
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
-  color: #4D4D4F;
+  color: $primaryText;
 
   .documentItem__category {
     text-align: left;
@@ -51,7 +53,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-    color: #009CB4;
+    color: $btnBgc;
     cursor: pointer;
 
     .download__img {
@@ -65,11 +67,11 @@
       text-align: left;
 
       &:hover {
-        color: #01B8D5;
+        color: $btnBgHover;
       }
 
       &:active {
-        color: #01BEDB;
+        color: $btnBgActive;
       }
 
       .download__block__text, .download__block__button {

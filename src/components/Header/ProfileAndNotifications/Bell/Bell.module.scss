@@ -1,3 +1,5 @@
+@import "../../../../assets/sass/variables";
+
 .bellWrapper {
   display: flex;
   align-items: center;
@@ -5,12 +7,12 @@
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: #F9F9FB;
+  background: $inputBgc;
   cursor: pointer;
   position: relative;
 
   &:hover {
-    background: #EDEDF4;
+    background: $primaryBorder;
   }
 
   &:after {
@@ -20,7 +22,7 @@
     height: 18px;
     left: 30px;
     top: 0;
-    background: #009CB4;
+    background: $btnBgc;
     border-radius: 50%;
     z-index: 1;
 
@@ -29,6 +31,6 @@
     font-size: 12px;
     line-height: 16px;
     text-align: center;
-    color: #FFFFFF;
+    color: $bgPrimary;
   }
 }

@@ -1,9 +1,11 @@
+@import "../assets/sass/variables";
+
 .appWrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
   max-width: 1400px;
-  background-color: #FFF;
+  background-color: $bgPrimary;
   margin: 0 auto;
   font-family: 'Manrope', sans-serif;
 }

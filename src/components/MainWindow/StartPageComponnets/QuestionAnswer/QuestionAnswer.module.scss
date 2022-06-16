@@ -1,9 +1,11 @@
+@import "../../../../assets/sass/variables";
+
 .wrapperContainer {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 80px 115px;
   gap: 233px;
-  background-color: #FBFBFB;
+  background-color: $bgSecondary;
   width: 1400px;
 }

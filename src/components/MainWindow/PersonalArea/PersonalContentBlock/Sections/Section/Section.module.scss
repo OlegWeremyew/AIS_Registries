@@ -1,3 +1,5 @@
+@import "../../../../../../assets/sass/variables";
+
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -14,7 +16,7 @@
     height: 72px;
     display: flex;
     flex-direction: row;
-    border: 1px solid #009CB4;
+    border: 1px solid $btnBgc;
     border-radius: 5px;
     padding: 20px;
     gap: 10px;
@@ -28,15 +30,15 @@
     flex-direction: row;
     border-width: 0 1px 1px 1px;
     border-style: solid;
-    border-color: #EDEDF4;
+    border-color: $primaryBorder;
     border-radius: 0 0 5px 5px;
     padding: 20px;
     gap: 10px;
-    color: #E0371F;
+    color: $error;
     transition: all 0.3s linear;
 
     &:hover {
-      border: 1px solid #009CB4;
+      border: 1px solid $btnBgc;
       transition: all 0.3s linear;
     }
   }
@@ -48,15 +50,15 @@
     flex-direction: row;
     border-width: 0 1px 1px 1px;
     border-style: solid;
-    border-color: #EDEDF4;
+    border-color: $primaryBorder;
     padding: 20px;
     gap: 10px;
     transition: all 0.3s linear;
-    color: #676A71;
+    color: $footerText;
 
     &:hover {
-      border: 1px solid #009CB4;
-      color: #009CB4;
+      border: 1px solid $btnBgc;
+      color: $btnBgc;
       transition: all 0.3s linear;
     }
 

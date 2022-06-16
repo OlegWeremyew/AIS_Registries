@@ -1,3 +1,5 @@
+@import "../../assets/sass/variables";
+
 .authorizationPageWrapper {
   display: flex;
   flex-direction: column;
@@ -8,9 +10,9 @@
   width: 1400px;
   height: 858px;
   position: relative;
-  background-color: #FBFBFB;
+  background-color: $bgSecondary;
   border-width: 1px 0;
   border-style: solid;
-  border-color: #EDEDF4;
+  border-color: $primaryBorder;
 
 }

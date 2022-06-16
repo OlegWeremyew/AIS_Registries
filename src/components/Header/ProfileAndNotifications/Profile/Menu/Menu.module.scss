@@ -1,3 +1,5 @@
+@import "../../../../../assets/sass/variables";
+
 .menuWrapper {
   width: 32px;
   height: 32px;
@@ -11,7 +13,7 @@
   padding-left: 5px;
 
   &:hover {
-    background: #F9F9FB;
+    background: $inputBgc;
   }
 
   .menu__image {

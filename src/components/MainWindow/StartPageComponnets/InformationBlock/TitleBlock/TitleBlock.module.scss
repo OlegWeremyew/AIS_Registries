@@ -1,3 +1,5 @@
+@import "../../../../../assets/sass/variables";
+
 .titleBlockWrapper {
   display: flex;
   flex-direction: column;
@@ -14,7 +16,7 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 66px;
-    color: #231F20;
+    color: $titlePrimary;
   }
 
   .titleBlock__text {
@@ -22,10 +24,10 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 150%;
-    color: #676A71;
+    color: $footerText;
 
     .titleBlock__text__num {
-      color: #009CB4;;
+      color: $btnBgc;
     }
   }
 }

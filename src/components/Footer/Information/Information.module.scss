@@ -1,3 +1,5 @@
+@import '../../../assets/sass/variables';
+
 .informationWrapper {
   display: flex;
   flex-direction: column;
@@ -10,7 +12,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
-    color: #231F20;
+    color: $titlePrimary;
   }
 
   .information__chapterBlock {
@@ -21,7 +23,7 @@
       font-weight: 700;
       font-size: 18px;
       line-height: 25px;
-      color: #231F20;
+      color: $titlePrimary;
     }
 
     .information__chapterBlock {
@@ -34,7 +36,7 @@
       font-weight: 500;
       font-size: 14px;
       line-height: 19px;
-      color: #4D4D4F;
+      color: $primaryText;
 
       &:first-child {
         margin-top: 0;
