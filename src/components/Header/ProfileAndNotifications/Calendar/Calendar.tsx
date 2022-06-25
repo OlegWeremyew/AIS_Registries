@@ -7,6 +7,6 @@ import styles from './Calendar.module.scss';
 
 export const Calendar = (): ReturnComponentType => (
   <div className={styles.calendarWrapper}>
-    <img src={calendar} alt="calendar" />
+    <img src={calendar} alt="calendar" title="calendar" />
   </div>
 );
