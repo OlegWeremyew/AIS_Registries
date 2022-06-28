@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ReturnComponentType } from '../../../../../types';
+import { ReturnComponentType } from 'types';
 
 import { SearchLine } from './SearchLine';
 import styles from './TitleBlock.module.scss';

@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import { ReturnComponentType } from '../../../../../types';
+import { ReturnComponentType } from 'types';
 
 import styles from './AdditionalItem.module.scss';
 import { AdditionalItemPropsType } from './types';

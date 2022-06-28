@@ -1,7 +1,7 @@
 import React, { FC, useState } from 'react';
 
-import checkImg from '../../../../assets/images/common/check.svg';
-import { ReturnComponentType } from '../../../../types';
+import checkImg from 'assets/images/common/check.svg';
+import { ReturnComponentType } from 'types';
 
 import styles from './Input.module.scss';
 import { InputType } from './types';

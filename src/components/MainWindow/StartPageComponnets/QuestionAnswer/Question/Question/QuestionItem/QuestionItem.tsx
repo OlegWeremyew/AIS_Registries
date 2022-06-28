@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
-import cross from '../../../../../../../assets/images/startPageComponnets/questionAndAnswer/standartCross.png';
-import { ReturnComponentType } from '../../../../../../../types';
+import cross from 'assets/images/startPageComponnets/questionAndAnswer/standartCross.png';
+import { ReturnComponentType } from 'types';
 
 import styles from './QuestionItem.module.scss';
 import { QuestionItemPropsType } from './types';

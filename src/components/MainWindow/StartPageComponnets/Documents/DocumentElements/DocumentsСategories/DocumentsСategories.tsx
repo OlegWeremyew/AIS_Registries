@@ -1,11 +1,11 @@
 import React from 'react';
 
-import download from '../../../../../../assets/images/startPageComponnets/documents/download.svg';
-import { ReturnComponentType } from '../../../../../../types';
+import download from 'assets/images/startPageComponnets/documents/download.svg';
+import { ReturnComponentType } from 'types';
 
 import styles from './DocumentsСategories.module.scss';
 
-export const DocumentsСategories = (): ReturnComponentType => (
+export const DocumentsCategories = (): ReturnComponentType => (
   <div className={styles.categoryWrapper}>
     <p className={styles.category__category}>Категория</p>
     <p className={styles.category__name}>Наименование</p>

@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import { ReturnComponentType } from '../../../../types';
+import { ReturnComponentType } from 'types';
 
 import style from './AdditionalAuthorization.module.scss';
 import { AdditionalItem } from './AdditionalItem';

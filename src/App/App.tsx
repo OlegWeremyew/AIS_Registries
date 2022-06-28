@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { Loading } from '../common';
-import { Footer, Header, Routers } from '../components';
-import { ReturnComponentType } from '../types';
+import { ReturnComponentType } from 'types';
 
 import styles from './App.module.scss';
+import { Loading } from 'common/Loading';
+import { Header, Routers, Footer } from 'components';
 
-const App = (): ReturnComponentType => (
+export const App = (): ReturnComponentType => (
   <div className={styles.appWrapper}>
     <React.Suspense fallback={<Loading />}>
       <Header />
@@ -15,5 +15,3 @@ const App = (): ReturnComponentType => (
     </React.Suspense>
   </div>
 );
-
-export default App;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { ReturnComponentType } from '../../../../types';
+import { ReturnComponentType } from 'types';
 
 import styles from './Profile.module.scss';
 import { ProfileOpen } from './ProfileOpen';

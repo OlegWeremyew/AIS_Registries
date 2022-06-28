@@ -1,6 +1,6 @@
-import { InferActionTypes } from '../../types';
-import { RegisteredAction } from '../RegisteredAction';
-import { initialRegistered } from '../registeredRudecer/registeredRudecer';
+import { initialRegistered } from 'reduxStore/registeredRudecer/registeredRudecer/registeredRudecer';
+import { InferActionTypes } from 'reduxStore/types';
+import { RegisteredAction } from 'reduxStore/registeredRudecer';
 
 export type RegistersType = {
   registers: RegisterItemType[];

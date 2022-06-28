@@ -1,7 +1,7 @@
 import React from 'react';
 
-import ThreeDOfficeWork from '../../../../../assets/images/startPageComponnets/information/3dOfficeWork.png';
-import { ReturnComponentType } from '../../../../../types';
+import ThreeDOfficeWork from 'assets/images/startPageComponnets/information/3dOfficeWork.png';
+import { ReturnComponentType } from 'types';
 
 import styles from './InformationImg.module.scss';
 

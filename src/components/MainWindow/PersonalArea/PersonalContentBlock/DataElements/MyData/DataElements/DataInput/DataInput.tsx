@@ -1,6 +1,6 @@
 import React, { FC, useState } from 'react';
 
-import { ReturnComponentType } from '../../../../../../../../types';
+import { ReturnComponentType } from 'types';
 
 import styles from './DataInput.module.scss';
 import { DataInputPropsType } from './types';

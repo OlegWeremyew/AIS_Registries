@@ -2,14 +2,14 @@ import React, { FC } from 'react';
 
 import { useNavigate } from 'react-router-dom';
 
-import user from '../../../../../assets/images/header/user.svg';
-import userPhoto from '../../../../../assets/images/header/userPhoto.svg';
-import { PATH } from '../../../../../constants/router';
-import { ReturnComponentType } from '../../../../../types';
-import { Menu } from '../Menu';
+import user from 'assets/images/header/user.svg';
+import userPhoto from 'assets/images/header/userPhoto.svg';
+import { PATH } from 'constants/router';
+import { ReturnComponentType } from 'types';
 
 import styles from './ProfileOpen.module.scss';
 import { ProfileOpenPropsType } from './types';
+import { Menu } from 'components/Header/ProfileAndNotifications/Profile/Menu';
 
 export const ProfileOpen: FC<ProfileOpenPropsType> = ({
   setStatus,

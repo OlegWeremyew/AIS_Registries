@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
-import arrowDown from '../../../../../assets/images/header/arrowDown.svg';
-import { ReturnComponentType } from '../../../../../types';
+import arrowDown from 'assets/images/header/arrowDown.svg';
+import { ReturnComponentType } from 'types';
 
 import styles from './Menu.module.scss';
 import { MenuPropsType } from './types';

@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import { ReturnComponentType } from '../../../../../../types';
+import { ReturnComponentType } from 'types';
 
 import { UpperArrowsPropsType } from './types';
 import styles from './UpperArrows.module.scss';

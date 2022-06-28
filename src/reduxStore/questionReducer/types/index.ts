@@ -1,6 +1,6 @@
-import { InferActionTypes } from '../../types';
-import { questionsAction } from '../questionsAction';
-import { initialQuestionState } from '../questionsReducer/questionsReducer';
+import { InferActionTypes } from 'reduxStore/types';
+import { initialQuestionState } from 'reduxStore/questionReducer/questionsReducer/questionsReducer';
+import { questionsAction } from 'reduxStore/questionReducer';
 
 export type QuestionsInitialType = typeof initialQuestionState;
 export type QuestionsActionTypes = InferActionTypes<typeof questionsAction>;

@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 import { useSelector } from 'react-redux';
 
-import { getNewsList } from '../../../../selectors';
-import { ReturnComponentType } from '../../../../types';
+import { getNewsList } from 'selectors';
+import { ReturnComponentType } from 'types';
 
 import { Registry } from './Registry';
 import { RegistryButton } from './RegistryButton';

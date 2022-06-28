@@ -1,9 +1,9 @@
 import React from 'react';
 
-import leftDarkArrow from '../../../../../assets/images/startPageComponnets/registers/paginator/leftDarkArrow.svg';
-import leftGrayArrow from '../../../../../assets/images/startPageComponnets/registers/paginator/leftGrayArrow.svg';
-import rightDarkArrow from '../../../../../assets/images/startPageComponnets/registers/paginator/rightDarkArrow.svg';
-import { ReturnComponentType } from '../../../../../types';
+import leftDarkArrow from 'assets/images/startPageComponnets/registers/paginator/leftDarkArrow.svg';
+import leftGrayArrow from 'assets/images/startPageComponnets/registers/paginator/leftGrayArrow.svg';
+import rightDarkArrow from 'assets/images/startPageComponnets/registers/paginator/rightDarkArrow.svg';
+import { ReturnComponentType } from 'types';
 
 import styles from './Paginator.module.scss';
 import { PaginatorButton } from './PaginatorButton';

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ReturnComponentType } from '../../../../types';
+import { ReturnComponentType } from 'types';
 
 import styles from './InformationBlock.module.scss';
 import { InformationImg } from './InformationImg';

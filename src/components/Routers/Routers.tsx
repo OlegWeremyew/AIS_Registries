@@ -2,16 +2,16 @@ import React from 'react';
 
 import { Route, Routes, Navigate } from 'react-router-dom';
 
-import { PATH } from '../../constants/router';
-import { ReturnComponentType } from '../../types';
+import { PATH } from 'constants/router';
+import { ReturnComponentType } from 'types';
 
-const StartPage = React.lazy(() => import('../../pages/StartPage/StartPage'));
-const NotFoundPage = React.lazy(() => import('../../pages/NotFoundPage/NotFoundPage'));
+const StartPage = React.lazy(() => import('pages/StartPage/StartPage'));
+const NotFoundPage = React.lazy(() => import('pages/NotFoundPage/NotFoundPage'));
 const AuthorizationPage = React.lazy(
-  () => import('../../pages/AuthorizationPage/AuthorizationPage'),
+  () => import('pages/AuthorizationPage/AuthorizationPage'),
 );
 const PersonalAreaPage = React.lazy(
-  () => import('../../pages/PersonalAreaPage/PersonalAreaPage'),
+  () => import('pages/PersonalAreaPage/PersonalAreaPage'),
 );
 
 export const Routers = (): ReturnComponentType => (

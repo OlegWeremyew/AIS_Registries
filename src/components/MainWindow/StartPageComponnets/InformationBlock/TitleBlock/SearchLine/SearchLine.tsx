@@ -4,8 +4,8 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useDispatch } from 'react-redux';
 
-import { RegisteredAction } from '../../../../../../reduxStore/registeredRudecer';
-import { ReturnComponentType } from '../../../../../../types';
+import { RegisteredAction } from 'reduxStore/registeredRudecer';
+import { ReturnComponentType } from 'types';
 
 import styles from './SearchLine.module.scss';
 

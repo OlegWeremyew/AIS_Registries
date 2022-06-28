@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ReturnComponentType } from '../../../../types';
+import { ReturnComponentType } from 'types';
 
 import { Elements } from './Elements';
 import { Paginator } from './Paginator';

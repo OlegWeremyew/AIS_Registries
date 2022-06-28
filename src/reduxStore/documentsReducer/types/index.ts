@@ -1,6 +1,6 @@
-import { InferActionTypes } from '../../types';
-import { documentsAction } from '../documentsAction';
-import { initialDocumentState } from '../documentsReducer/documentsReducer';
+import { InferActionTypes } from 'reduxStore/types';
+import { initialDocumentState } from 'reduxStore/documentsReducer/documentsReducer/documentsReducer';
+import { documentsAction } from 'reduxStore/documentsReducer';
 
 export type InitialDocumentStateType = typeof initialDocumentState;
 export type ActionRegisteredTypes = InferActionTypes<typeof documentsAction>;

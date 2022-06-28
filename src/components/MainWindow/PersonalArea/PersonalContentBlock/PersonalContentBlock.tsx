@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ReturnComponentType } from '../../../../types';
+import { ReturnComponentType } from 'types';
 
 import { DataElements } from './DataElements';
 import styles from './PersonalContentBlock.module.scss';

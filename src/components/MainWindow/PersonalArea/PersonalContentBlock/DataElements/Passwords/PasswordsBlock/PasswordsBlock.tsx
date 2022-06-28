@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ReturnComponentType } from '../../../../../../../types';
+import { ReturnComponentType } from 'types';
 
 import { Password } from './Password';
 import styles from './PasswordsBlock.module.scss';

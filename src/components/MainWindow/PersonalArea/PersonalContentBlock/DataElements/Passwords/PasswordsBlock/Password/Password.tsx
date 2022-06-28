@@ -2,7 +2,7 @@ import React, { FC, useState } from 'react';
 
 import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 
-import { ReturnComponentType } from '../../../../../../../../types';
+import { ReturnComponentType } from 'types';
 
 import styles from './Password.module.scss';
 import { PasswordInput } from './PasswordInput';

@@ -2,8 +2,8 @@ import React, { FC } from 'react';
 
 import { useDispatch } from 'react-redux';
 
-import { questionsAction } from '../../../../../../reduxStore/questionReducer';
-import { ReturnComponentType } from '../../../../../../types';
+import { questionsAction } from 'reduxStore/questionReducer';
+import { ReturnComponentType } from 'types';
 
 import styles from './Question.module.scss';
 import { QuestionData } from './QuestionData';

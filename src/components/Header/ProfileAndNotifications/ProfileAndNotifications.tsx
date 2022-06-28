@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ReturnComponentType } from '../../../types';
+import { ReturnComponentType } from 'types';
 
 import { Bell } from './Bell';
 import { Calendar } from './Calendar';

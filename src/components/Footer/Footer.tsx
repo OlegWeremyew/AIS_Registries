@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ReturnComponentType } from '../../types';
+import { ReturnComponentType } from 'types';
 
 import { Contacts } from './Contacts';
 import styled from './Footer.module.scss';

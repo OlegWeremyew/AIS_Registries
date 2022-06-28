@@ -6,8 +6,8 @@ import {
   QuestionAnswer,
   Registers,
   RegistryNews,
-} from '../../components';
-import { ReturnComponentType } from '../../types';
+} from 'components';
+import { ReturnComponentType } from 'types';
 
 import styles from './StartPage.module.scss';
 

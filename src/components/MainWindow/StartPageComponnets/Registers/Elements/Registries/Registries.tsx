@@ -2,8 +2,8 @@ import React from 'react';
 
 import { useSelector } from 'react-redux';
 
-import { getRegisteredList } from '../../../../../../selectors';
-import { ReturnComponentType } from '../../../../../../types';
+import { getRegisteredList } from 'selectors';
+import { ReturnComponentType } from 'types';
 
 import styles from './Registries.module.scss';
 import { Registry } from './Registry';

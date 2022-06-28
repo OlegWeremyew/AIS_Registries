@@ -1,1 +1,1 @@
-export { DocumentsСategories } from './DocumentsСategories';
+export { DocumentsCategories } from './DocumentsСategories';

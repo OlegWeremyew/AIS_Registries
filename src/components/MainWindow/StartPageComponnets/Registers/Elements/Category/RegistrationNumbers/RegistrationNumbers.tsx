@@ -2,9 +2,9 @@ import React from 'react';
 
 import { useDispatch } from 'react-redux';
 
-import doubleArrow from '../../../../../../../assets/images/startPageComponnets/registers/elements/doubleArrow.svg';
-import { RegisteredAction } from '../../../../../../../reduxStore/registeredRudecer';
-import { ReturnComponentType } from '../../../../../../../types';
+import doubleArrow from 'assets/images/startPageComponnets/registers/elements/doubleArrow.svg';
+import { RegisteredAction } from 'reduxStore/registeredRudecer';
+import { ReturnComponentType } from 'types';
 
 import styles from './RegistrationNumbers.module.scss';
 

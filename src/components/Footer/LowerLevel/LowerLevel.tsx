@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ReturnComponentType } from '../../../types';
+import { ReturnComponentType } from 'types';
 
 import styles from './LowerLevel.module.scss';
 

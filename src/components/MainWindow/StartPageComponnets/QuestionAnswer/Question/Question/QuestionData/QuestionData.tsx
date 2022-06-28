@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import { ReturnComponentType } from '../../../../../../../types';
+import { ReturnComponentType } from 'types';
 
 import styles from './QuestionData.module.scss';
 import { QuestionDataPropsType } from './types';

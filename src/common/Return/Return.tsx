@@ -2,9 +2,9 @@ import React from 'react';
 
 import { useNavigate } from 'react-router-dom';
 
-import returnArrow from '../../assets/images/common/arrow-left.svg';
-import { PATH } from '../../constants/router';
-import { ReturnComponentType } from '../../types';
+import returnArrow from 'assets/images/common/arrow-left.svg';
+import { PATH } from 'constants/router';
+import { ReturnComponentType } from 'types';
 
 import styles from './Return.module.scss';
 

@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
-import downloadButton from '../../../../../../../assets/images/startPageComponnets/documents/downloadButton.svg';
-import { ReturnComponentType } from '../../../../../../../types';
+import downloadButton from 'assets/images/startPageComponnets/documents/downloadButton.svg';
+import { ReturnComponentType } from 'types';
 
 import styles from './DocumentItem.module.scss';
 import { DocumentItemPropsType } from './types';

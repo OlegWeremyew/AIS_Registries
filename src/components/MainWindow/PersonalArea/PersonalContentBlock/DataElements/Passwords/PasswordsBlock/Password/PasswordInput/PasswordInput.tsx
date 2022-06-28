@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { ReturnComponentType } from '../../../../../../../../../types';
+import { ReturnComponentType } from 'types';
 
 import styles from './PasswordInput.module.scss';
 import { PasswordInputPropsType } from './types';

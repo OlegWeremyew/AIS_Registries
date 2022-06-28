@@ -1,7 +1,7 @@
 import React, { FC, useState } from 'react';
 
-import arrow from '../../../../../../../../assets/images/header/arrowDown.svg';
-import { ReturnComponentType } from '../../../../../../../../types';
+import arrow from 'assets/images/header/arrowDown.svg';
+import { ReturnComponentType } from 'types';
 
 import styles from './DataSelect.module.scss';
 import { DataSelectPropsType } from './types';

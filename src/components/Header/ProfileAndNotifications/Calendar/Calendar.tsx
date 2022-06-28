@@ -1,7 +1,7 @@
 import React from 'react';
 
-import calendar from '../../../../assets/images/header/calendar.svg';
-import { ReturnComponentType } from '../../../../types';
+import calendar from 'assets/images/header/calendar.svg';
+import { ReturnComponentType } from 'types';
 
 import styles from './Calendar.module.scss';
 

@@ -2,8 +2,8 @@ import React from 'react';
 
 import { useSelector } from 'react-redux';
 
-import { getQuestionList } from '../../../../../selectors';
-import { ReturnComponentType } from '../../../../../types';
+import { getQuestionList } from 'selectors';
+import { ReturnComponentType } from 'types';
 
 import { Question } from './Question';
 import styles from './Questions.module.scss';

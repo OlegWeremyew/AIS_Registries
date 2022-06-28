@@ -1,7 +1,7 @@
 import React from 'react';
 
-import userAvatar from '../../../../../../assets/images/personalArea/dataElement/userPhoto.svg';
-import { ReturnComponentType } from '../../../../../../types';
+import userAvatar from 'assets/images/personalArea/dataElement/userPhoto.svg';
+import { ReturnComponentType } from 'types';
 
 import styles from './Greetings.module.scss';
 

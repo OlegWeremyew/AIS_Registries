@@ -2,9 +2,9 @@ import React, { FC } from 'react';
 
 import { useNavigate } from 'react-router-dom';
 
-import userPhoto from '../../../../../assets/images/header/userPhoto.svg';
-import { PATH } from '../../../../../constants/router';
-import { ReturnComponentType } from '../../../../../types';
+import userPhoto from 'assets/images/header/userPhoto.svg';
+import { PATH } from 'constants/router';
+import { ReturnComponentType } from 'types';
 import { Menu } from '../Menu';
 
 import styles from './ProfileToggle.module.scss';

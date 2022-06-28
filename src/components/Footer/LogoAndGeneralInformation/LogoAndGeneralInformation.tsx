@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ReturnComponentType } from '../../../types';
+import { ReturnComponentType } from 'types';
 
 import { Developer } from './Developer';
 import { Logo } from './Logo';

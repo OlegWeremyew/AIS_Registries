@@ -1,4 +1,4 @@
-import { sortStatusType } from '../../../components/MainWindow/StartPageComponnets/Registers/Elements/Category/SoftwareName/types';
+import { sortStatusType } from 'components/MainWindow/StartPageComponnets/Registers/Elements/Category/SoftwareName/types';
 import {
   CHANGE_SORT_BY_REGISTRATION_NAMES_SOFTWARE,
   CHANGE_SORT_BY_REGISTRATION_NUMBERS,

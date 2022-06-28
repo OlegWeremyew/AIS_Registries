@@ -1,8 +1,8 @@
-import newsImg1 from '../../../assets/images/startPageComponnets/registryNews/newsImg1.jpg';
-import newsImg2 from '../../../assets/images/startPageComponnets/registryNews/newsImg2.jpg';
-import newsImg4 from '../../../assets/images/startPageComponnets/registryNews/newsImg4.jpg';
-import newsImg5 from '../../../assets/images/startPageComponnets/registryNews/newsImg5.jpg';
-import newsImg6 from '../../../assets/images/startPageComponnets/registryNews/newsImg6.jpg';
+import newsImg1 from 'assets/images/startPageComponnets/registryNews/newsImg1.jpg';
+import newsImg2 from 'assets/images/startPageComponnets/registryNews/newsImg2.jpg';
+import newsImg4 from 'assets/images/startPageComponnets/registryNews/newsImg4.jpg';
+import newsImg5 from 'assets/images/startPageComponnets/registryNews/newsImg5.jpg';
+import newsImg6 from 'assets/images/startPageComponnets/registryNews/newsImg6.jpg';
 import { NewsActionTypes, NewsInitialType, NewsListType } from '../types';
 
 export const initialNewsState = {
